@@ -1,15 +1,14 @@
-package stepdefinitions;
+package stepdefinitions.e2e_test;
 
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import pojos.RoomPojo;
 
 import java.sql.*;
-import java.util.Optional;
 
 import static org.junit.Assert.assertEquals;
-import static stepdefinitions.MedunnaRoomStepDefinitions.roomId;
-import static stepdefinitions.MedunnaRoomStepDefinitions.roomNumberFaker;
+import static stepdefinitions.e2e_test.MedunnaRoomStepDefinitions.roomId;
+import static stepdefinitions.e2e_test.MedunnaRoomStepDefinitions.roomNumberFaker;
 
 public class DataBaseRoomStepDefinitions {
     Connection connection;
